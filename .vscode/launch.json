@@ -1,0 +1,28 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Current Device",
+			"request": "launch",
+			"type": "dart"
+		},
+		{
+			"name": "Android",
+			"request": "launch",
+			"type": "dart",
+			"deviceId": "emulator-5554"
+		},
+		{
+			"name": "iPhone",
+			"request": "launch",
+			"type": "dart",
+			"deviceId": "68FDABA0-4D07-4D0F-BE77-B32EF30050E2"
+		},
+	],
+	"compounds": [
+		{
+			"name": "All Devices",
+			"configurations": ["Android", "iPhone"],
+		}
+	]
+}
